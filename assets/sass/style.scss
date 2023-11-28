@@ -1,0 +1,61 @@
+@import "header.scss";
+@import "footer.scss";
+@import "home.scss";
+@import "cats.scss";
+@import "login.scss";
+@import "about.scss";
+@import "contact.scss";
+
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.light {
+  --heroBg: #1e1c27;
+  --textColor: #1e1c27;
+  --icon: #fff;
+  --hero2: #f9f9ff;
+  --hero4: #fff;
+  --herotext: #1e1c27;
+  --foot: #f9f9ff;
+  --foot-2: #f9f9ff;
+  --foot-text: #23202e;
+}
+
+.dark {
+  --heroBg: #fff;
+  --textColor: #777;
+  --icon: #1e1c27;
+  --hero2: #1e1c27;
+  --hero4: #1e1c27;
+  --herotext: #fff;
+  --foot: #23202e;
+  --foot-2: #23202e;
+  --foot-text: #f9f9ff;
+}
+
+.preloader {
+  width: 100%;
+  height: 100vh;
+  background-color: #d4f082;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.navbar-dark {
+  z-index: 123;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #23202e;
+  padding: 19px 0;
+}
